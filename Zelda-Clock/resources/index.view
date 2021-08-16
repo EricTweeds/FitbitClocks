@@ -1,0 +1,27 @@
+<svg>
+  <image id="clockface" href="clockFace.png" x="18" y="18"/>
+  <text id="date" x="264" y="30" />
+  <image id="battery" href="bat.png" x="265" y="35" height="15" width="30"/>
+  <rect id="battery-charge" x="267" y="37" height="11" width="23" fill="#00ff00" />
+  <text id="hr" x="50" y="52"/>
+  <image id="heart" href="heart.png" width="20" height="17" x="40" y="20" />
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-100" width="8" height="100" fill="#FFD700" />
+  </g>
+  <g id="mins-tip" pointer-events="visible" transform="translate(50%,50%)">
+    <image href="handTip.png" x="$-4" y="-108" height="8" width="8"/>
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-65" width="8" height="65" fill="#FFD700" />
+  </g>
+  <g id="hours-tip" pointer-events="visible" transform="translate(50%,50%)">
+    <image href="handTip.png" x="$-4" y="-73" height="8" width="8"/>
+  </g>
+  <g id="mins-pointer" pointer-events="visible" transform="translate(50%,50%)">
+    <image x="$-6" y="-127" width="12" height="15" href="minPointer.png" />
+  </g>
+  <g id="hours-pointer" pointer-events="visible" transform="translate(50%,50%)">
+    <image x="$-6" y="-127" width="12" height="15" href="hourPointer.png" />
+  </g>
+  <circle cx="50%" cy="50%" r="10" fill="#444444" />
+</svg>

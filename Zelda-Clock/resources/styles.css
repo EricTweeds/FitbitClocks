@@ -1,0 +1,21 @@
+#clockface {
+  viewport-fill: white;
+  height: 89%;
+  width: 89%;
+}
+
+#date {
+  font-size: 16;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: #FFFFFF;
+}
+
+#hr {
+  font-size: 16;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: #00FF00;
+}

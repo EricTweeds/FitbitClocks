@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "94c344ae-33e8-419e-b784-e42963c1ba72",
+    "appType": "clockface",
+    "appDisplayName": "Tweeds Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Tweeds Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

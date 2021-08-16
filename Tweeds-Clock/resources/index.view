@@ -1,0 +1,20 @@
+<svg>
+  <image id="image" href="bike.png" />
+  <g>
+    <image id="hrIcon" href="heart.png" />
+  </g>
+  <g>
+    <image id="batIcon" href="bat.png" />
+  </g>
+  <g>
+    <image id="stepIcon" href="steps.png" />
+  </g>
+  <rect id="chargeBar" height="11" width="23" fill="#00ff00" />
+  <text id="hr" />
+  <text id="time" />
+  <text id="step" />
+  <arc id="goal" />
+  <text id="target" />
+  <text id="current" />
+  <line id="divider" />
+</svg>

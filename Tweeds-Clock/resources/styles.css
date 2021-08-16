@@ -1,0 +1,107 @@
+.background {
+  viewport-fill: white;
+  height: 100%;
+}
+
+#time {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: start;
+  x: 50;
+  y: 77;
+  fill: #fcf1d1;
+}
+
+#hr {
+  font-size: 16;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 110;
+  y: 319;
+  fill: #fcf1d1;
+}
+
+#step {
+  font-size: 16;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 215;
+  y: 319;
+  fill: #fcf1d1;
+}
+
+#image {
+  height: 100%;
+  width: 100%;
+}
+
+#hrIcon {
+  x: 75;
+  y: 305;
+  height: 17;
+  width: 20;
+}
+
+#stepIcon {
+  x: 170;
+  y: 305;
+  height: 17;
+  width: 20;
+}
+
+#batIcon {
+  x: 300;
+  y: 125;
+  height: 15;
+  width: 30;
+}
+
+#chargeBar {
+  x: 302;
+  y: 127;
+  height: 11;
+  width: 23;
+}
+
+#goal {
+  start-angle: 0;
+  sweep-angle: 270;
+  arc-width: 5;
+  fill: #fcf1d1;
+  x: 240;
+  y: 210;
+  height: 75;
+  width: 75;
+}
+
+#current {
+  font-size: 16;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 277;
+  y: 246;
+  fill: #fcf1d1;
+}
+
+#target {
+  font-size: 16;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 277;
+  y: 264;
+  fill: #fcf1d1;
+}
+
+#divider {
+  stroke-width: 1;
+  fill: #fcf1d1;
+  y1: 249;
+  y2: 249;
+  x1: 267;
+  x2: 287;
+}
